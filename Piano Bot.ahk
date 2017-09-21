@@ -1,11 +1,6 @@
-﻿; Piano Bot
-
-#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
-; #Warn  ; Enable warnings to assist with detecting common errors.
-SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
-SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
-#SingleInstance,Force
-
+﻿; ==================================================================================================================================
+; Piano Bot
+PianoBot:
 lst := {"FurElise" : "fDfDfadsp tupa uOas ufDfDfadsp tupa usap asdf ogfd ifds udsa ufuffxDfDfDfDfDfDfadsp tupa uOas ufDfDfadsp tupa usap", "Hallelujah" : "uooo oppp uooo oppp opp ppp ooio uooo oppa sss sssd sddd ffdd su opp pouu uopp pou iuy trt"}
 Run, https://virtualpiano.net/
 Gui, PianoBot: Font, Bold
@@ -49,5 +44,5 @@ GuiControl, PianoBot: Enable, Melody
 Return
 
 PianoBotGuiClose:
-ExitApp
+Gui, PianoBot: Destroy
 Return
