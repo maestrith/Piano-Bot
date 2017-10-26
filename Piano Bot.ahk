@@ -17,7 +17,7 @@ Gui, Add, Slider, x10 y20 w50 Range0-1000 vKeyDelay gSlider Tooltip, 250
 Gui, Add, Button, x125 y20 gPlayMelody, Play
 Gui, Add, DropDownList, x10 y50 w150 vMelodies gMelodySelect
 Gui, Add, Edit, x10 y80 R10 w150 vMelody
-for key, value in lst ;*[Piano Bot]
+for key, value in lst ;[Piano Bot]
 {
 	melodiesList .= key "|"
 }
