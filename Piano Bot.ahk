@@ -5,6 +5,7 @@
 ;SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #SingleInstance,Force ; prevents script reopening messages
+setbatchlines, -1
 
 lst := {"FurElise"   : "fDfDfadsp tupa uOas ufDfDfadsp tupa usap asdf ogfd ifds udsa ufuffxDfDfDfDfDfDfadsp tupa uOas ufDfDfadsp tupa usap"
 	 , "Hallelujah" : "uooo oppp uooo oppp opp ppp ooio uooo oppa sss sssd sddd ffdd su opp pouu uopp pou iuy trt"
